@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #000;
+	background-color: #14B6D4;
+	padding: 0 30px 30px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFF;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	letter-spacing: .1em;
+	line-height: 1.4em;
+}
+h2 {
+	font-size: 22px;
+	padding: 6px;
+	letter-spacing: 0.1em;
+	background-color: #C2D0DB;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #C2D0DB;
+	padding: 4px 0;
+	
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #C2D0DB;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #C2D0DB;
+	text-decoration: none;
+}
+a:hover {
+	color: #C2D0DB;
+	text-decoration: none;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #C2D0DB 1px;
+}
+td {
+	padding: 6px;
+	border: solid #C2D0DB 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #C2D0DB;
+	text-align: center;
+	padding: 6px;
+	border: solid #C2D0DB 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #C2D0DB 1px;
+}
+iframe {
+	padding: 8px;
+	margin: 8px;
+}
+
